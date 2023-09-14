@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background-color: #ffe089;
+    padding: 20px;
+    text-align: center;
+    display:  flex;
+    justify-content: space-between;
+
+  }
+  
+  h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  .navlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navlist li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main li {
+    margin-bottom: 20px;
+  } 
+  
+ .Cat_list {
+    text-align: center;
+  }
+  
+  .Cat_list menu li  {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .Cat_list menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+ 
+  #about {
+    text-align: center;
+  }
+ 
+  footer {
+    background-color: #ffe089;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+  }
+  .postersCard {
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 512px;
+  }
+
+  .fposters {
+    display: flex;
+    justify-content: space-around;
+  }
+  .fposters li {
+    text-align: center;
+    
+  }
+  .fposters li details {
+    margin: 10px 0;
+  }
+  .inp {
+    text-align: center;
+  }
+  input {
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+  }
+  textarea {
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+  }
+  .intext label {
+    position: relative;
+    top: -20px;
+  }
+  .ins input {
+    position: relative;
+    left: 42px;
+    background-color: #ffe089;
+    width: 202px;  
+  }
+  div label {
+    position: relative;
+    left: -25px;
+  }
+  div #tel {
+    position: relative;
+    left: -16px;
+  }
+  div #email {
+    position: relative;
+    left: 16px;
+  }
+   table {
+    margin: 10px 120px 0;
+   }
+ 
+  

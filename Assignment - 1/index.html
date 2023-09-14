@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/posterIcon.png">
+    <title >Poster Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Poster Shop</h1>
+        <nav>
+          <ul class="navlist">
+            <li><a href="#featured">Featured Posters</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="featured">
+          <h2>Most Featured Posters</h2>
+          <ul class="fposters">
+            <li>
+              <h3>Naruto</h3>
+              <img src="images/naruto.jpg" height="300" alt="Poster 1">
+              <details>
+              <summary>Naruto</summary>
+              <p>This poster features all the characters from the show.</p>
+              </details>
+              <audio controls>
+                <source src="audio/Naruto Theme Song.mp3" type="audio/mp3">
+                Your browser does not support the audio.
+              </audio>
+              <table border="1">
+                <tr>
+                  <th>Poster Name</th>
+                  <th>Price</th>
+                </tr>
+                <tr>
+                  <td>Naruto</td>
+                  <td>$35</td>
+                </tr>
+              </table>
+            </li>
+            <li>
+              <h3>Death Note</h3>
+              <img src="images/deathnote.jpeg" height="300" alt="Poster 2">
+              <details>
+                 <summary>Death Note</summary>
+              <p>This poster features Light and L from the show.</p>
+              </details>
+              <audio controls>
+                <source src="audio/Deathnote Ringtone.mp3" type="audio/mp3">
+                Your browser does not support the audio.
+              </audio>
+              <table border="1">
+                <tr>
+                  <th>Poster Name</th>
+                  <th>Price</th>
+                </tr>
+                <tr>
+                  <td>Death Note</td>
+                  <td>$45</td>
+                </tr>
+                
+              </table>
+            </li>
+          </ul>
+        </section>
+        <section id="categories">
+          <h2>Categories</h2>
+          <ul class="Cat_list">
+            <menu>
+            <li><a href="naruto.html">Naruto</a></li>
+            <li><a href="Death_note.html">Death Note</a></li>
+          </menu>
+          </ul>
+        </section>
+        <section id="about">
+          <h2>About</h2>
+          <p>We are an unique company that focuses in offering stunning, premium anime posters for sale. All of our anime posters are framed-ready and printed on excellent paper. We appreciate your interest in our poster shop..</p>
+          <video width="420" height="340" controls>
+            <source src="video/Dattebayo.mp4" type="video/mp4">
+            Your browser does not support the video.
+          </video>
+        </section>
+        <section id="Contact">
+          <h2>Contact</h2>
+          <form action="action_page.php">
+            <div class="inp">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="inp">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <div class="inp">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="tel" name="tel" placeholder="Your Phone number..">
+            </div>
+            <div class="inp">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email..">
+            </div>  
+            <div class="inp intext">
+            <label for="subject">Subject:</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+            </div>
+            <div class="inp ins">
+            <input type="submit" value="Submit">
+          </div>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright &copy; 2023 Anime Poster Shop</p>
+      </footer>
+   
+</body>
+</html>
